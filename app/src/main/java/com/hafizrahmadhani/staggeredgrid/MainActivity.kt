@@ -206,7 +206,7 @@ fun BodyContent(modifier: Modifier = Modifier) {
 @Preview
 @Composable
 fun ChipPreview() {
-    StaggeredGridTheme() {
+    StaggeredGridTheme {
         Chip(text = "Hi there")
     }
 }
